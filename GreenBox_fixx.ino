@@ -173,7 +173,7 @@ void loop()
 void GETLED(){
   //set time interval when LED ON and OFF
   T = rtc.getTime();
-    if ((T.hour >= 5) && (T.hour <= 17)){ //ON start 5 to 17 or 12 hour
+    if ((T.hour >= 6) && (T.hour <= 17)){ //ON start 5 to 17 or 12 hour
     digitalWrite(ledPin, LOW); 
    }else{
     digitalWrite(ledPin, HIGH); 
